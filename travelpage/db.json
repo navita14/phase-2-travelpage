@@ -1,0 +1,39 @@
+{
+    "destinations": [
+      {
+        "id": 1,
+        "country": "USA",
+        "state": "California",
+        "city": "Los Angeles",
+        "image": ""
+      },
+      {
+        "id": 2,
+        "country": "UK",
+        "state": "England",
+        "city": "London",
+        "image": ""
+      },
+      {
+        "id": 3,
+        "country": "Europe",
+        "state": "",
+        "city": "",
+        "image": ""
+      },
+      {
+        "id": 4,
+        "country": "Asia",
+        "state": "",
+        "city": "",
+        "image": ""
+      },
+      {
+        "id": 5,
+        "country": "",
+        "state": "",
+        "city": "",
+        "image": ""
+      }
+    ]
+  }
