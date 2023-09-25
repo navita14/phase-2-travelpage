@@ -5,35 +5,36 @@
         "country": "USA",
         "state": "California",
         "city": "Los Angeles",
-        "image": ""
+        "main-image": ""
       },
       {
         "id": 2,
         "country": "UK",
         "state": "England",
         "city": "London",
-        "image": ""
+        "main-image": "https://assets.editorial.aetnd.com/uploads/2019/03/topic-london-gettyimages-760251843-feature.jpg",
+        "image":"",
       },
       {
         "id": 3,
         "country": "Europe",
-        "state": "",
-        "city": "",
-        "image": ""
+        "state": "Italy",
+        "city": "Florence",
+        "main-image": "https://secure.s.forbestravelguide.com/img/destinations/Florence-CreditTT-iStock.jpg"
       },
       {
         "id": 4,
         "country": "Asia",
-        "state": "",
-        "city": "",
-        "image": ""
+        "state": "Japan",
+        "city": "Tokyo",
+        "main-image": "https://www.aptouring.com/-/media/apt-responsive-website/asia/hero-panel-12-5/japan-12-5/hc-a-as-japan-aerial-view-of-tokyo-cityscape-with-fuji-mountain-in-japan-1131743616-g-web-12-5.jpg?useCustomFunctions=1&rw=2280&w=1900&h=950&cropX=304&cropY=0"
       },
       {
         "id": 5,
-        "country": "",
-        "state": "",
-        "city": "",
-        "image": ""
+        "country": "South America",
+        "state": "Colombia",
+        "city": "Bogota",
+        "main-image": ""
       }
     ]
   }
