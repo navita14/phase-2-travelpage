@@ -34,6 +34,7 @@ function App() {
               key={des.id} 
               city={des.city}
               image={des['main-image']} 
+              funfact={des.funfact}
             />
           );
         })}
