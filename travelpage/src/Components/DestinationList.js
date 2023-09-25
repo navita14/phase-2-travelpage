@@ -9,6 +9,7 @@ export default function DestionationList({city,image}){
             <div>
                 <img className="pics" src={image} alt={city} />
             </div>
+            <button>More Info</button>
         </div>
     )
 }

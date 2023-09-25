@@ -9,13 +9,18 @@ export default function Header () {
                 <NavLink
                 exact
                 to="/"
+                className="nav-link"
                 >TravelPage</NavLink>
                 <NavLink
                 exact
-                to="/flights">Flights</NavLink>
+                to="/flights"
+                className="nav-link"
+                >Flights</NavLink>
                 <NavLink
                 exact
-                to="/destinations">Destinations</NavLink>
+                to="/destinations"
+                className="nav-link"
+                >Destinations</NavLink>
             </div>
         </div>
     )

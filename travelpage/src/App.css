@@ -9,9 +9,6 @@
   object-fit: cover;
 }
 
-.pics img:hover {
-  border-color:blue;
-}
 
 .homepage-pics {
   box-sizing: border-box;
@@ -23,6 +20,25 @@
 }
 
 
-.header-links ul {
+.nav-link {
+  padding-left: 150px;
+  padding-right: 150px;
+  float:center;
+  justify-content: space-around;
+  color: white
+}
 
+/* .header-links:hover{
+  border-color:gold;
+} */
+
+.header-links {
+  background-color: #333;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.header{
+  display:flex;
+  box-sizing: border-box;
 }

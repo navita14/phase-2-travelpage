@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Switch>
+      {/* <Switch>
         <Route exact path="/">
             <h1>TravelPage</h1>
           </Route>
@@ -26,7 +26,7 @@ function App() {
           <Route exact path="/destinations">
             <h1>Destinations</h1>
           </Route>
-      </Switch>
+      </Switch> */}
       <div className="homepage-pics">
         {destinations.map((des) => {
           return (
