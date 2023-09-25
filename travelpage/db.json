@@ -5,15 +5,14 @@
         "country": "USA",
         "state": "California",
         "city": "Los Angeles",
-        "main-image": ""
+        "main-image": "https://lacounty.gov/wp-content/uploads/2022/03/shutterstock_1418018357-scaled.jpg"
       },
       {
         "id": 2,
         "country": "UK",
         "state": "England",
         "city": "London",
-        "main-image": "https://assets.editorial.aetnd.com/uploads/2019/03/topic-london-gettyimages-760251843-feature.jpg",
-        "image":"",
+        "main-image": "https://assets.editorial.aetnd.com/uploads/2019/03/topic-london-gettyimages-760251843-feature.jpg"
       },
       {
         "id": 3,
