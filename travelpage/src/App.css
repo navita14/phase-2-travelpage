@@ -45,13 +45,14 @@
 
 
 .btnOne {
-  display: inline-block;
+  display: flex;
   margin-right: 5px; 
   margin-bottom: 10px;
   cursor: pointer;
   /* background-color: white; */
   color: black;
   font-weight: bold;
+  width:80px;
 }
 
 .btnOne:hover {
@@ -68,5 +69,6 @@
 
 .boxx {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
+  align-items: center;
 }
