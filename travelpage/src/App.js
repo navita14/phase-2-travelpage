@@ -3,6 +3,7 @@ import React,{ useState, useEffect} from "react"
 import { Switch, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Destinations from './Components/Destinations';
+import Map from "./Components/Map"
 
 function App() {
   const [destinations,setDestinations] = useState([])
@@ -19,15 +20,17 @@ function App() {
       <Switch>
         <Route exact path="/Map">
             <h1>Map</h1>
+            <Map />
           </Route>
-          <Route exact path="/flights">
+          <Route exact path="/Flights">
             <h1>Flights</h1>
           </Route>
-          <Route exact path="/destinations">
+          <Route exact path="/Destinations">
             <h1>Destinations</h1>
+            <Destinations destinations={destinations} />
           </Route>
       </Switch>
-      <Destinations destinations={destinations} />
+      
     </div>
   );
 }

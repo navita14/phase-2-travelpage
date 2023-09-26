@@ -57,3 +57,16 @@
 .btnOne:hover {
   border-color: darkblue;
 }
+
+.maps-container {
+  /* width: 100%;
+  height: 400px;
+  margin: 0 auto;  */
+  display: flex;
+  justify-content: center;
+}
+
+.boxx {
+  display: flex;
+  flex-direction: column;
+}
