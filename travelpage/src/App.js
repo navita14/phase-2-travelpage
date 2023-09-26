@@ -1,25 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import React,{ useState, useEffect} from "react"
 import { Switch, Route } from 'react-router-dom';
-import Header from './component/Header';
+import Header from './Components/Header';
+import Destinations from './Components/Destinations';
+import Map from "./Components/Map"
 
 function App() {
+  const [destinations,setDestinations] = useState([])
+
+  useEffect (() => {
+    fetch("http://localhost:8000/destinations")
+    .then(res => res.json())
+    .then(data => setDestinations(data))
+  },[])
+
   return (
     <div className="App">
       <Header />
       <Switch>
-        <Route exact path="/">
-            <h1>TravelPage</h1>
+        <Route exact path="/Map">
+            <h1>Map</h1>
+            <Map />
           </Route>
-          <Route exact path="/flights">
+          <Route exact path="/Flights">
             <h1>Flights</h1>
           </Route>
-          <Route exact path="/destinations">
+          <Route exact path="/Destinations">
             <h1>Destinations</h1>
+            <Destinations destinations={destinations} />
           </Route>
       </Switch>
+      
     </div>
   );
 }
 
 export default App;
+
