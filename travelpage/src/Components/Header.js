@@ -10,7 +10,7 @@ export default function Header () {
                 exact
                 to="/"
                 className="nav-link"
-                >TravelPage</NavLink>
+                >Map</NavLink>
                 <NavLink
                 exact
                 to="/flights"

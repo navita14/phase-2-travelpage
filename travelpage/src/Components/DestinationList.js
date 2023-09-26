@@ -12,15 +12,14 @@ export default function DestionationList({city,image,funfact}){
             <div>
                 <h2>{city}</h2>
             </div>
-            <div>
-            <button onClick={toggleFacts}>Fun Fact</button>
+            <button className="btnOne">More Info</button>
+            <button className="btnOne" onClick={toggleFacts}>Fun Fact</button>
             {isFunFact ? (
                 <img className="pics" src={image} alt={city} />
             ) : (
                 <p>{funfact}</p>
             )}
-            </div>
-            <button>More Info</button>
+
         </div>
     )
 }

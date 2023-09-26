@@ -42,3 +42,17 @@
   display:flex;
   box-sizing: border-box;
 }
+
+
+.btnOne {
+  display: inline-block;
+  margin-right: 5px; 
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: rgb(53, 189, 41);
+  font-weight: bold;
+}
+
+.btnOne:hover {
+  border-color: darkblue;
+}
