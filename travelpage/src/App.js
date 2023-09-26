@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Destinations from './Components/Destinations';
 import Map from "./Components/Map"
+import MoreInfo from './Components/MoreInfo';
 
 function App() {
   const [destinations,setDestinations] = useState([])
@@ -18,7 +19,7 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <Route exact path="/Map">
+          <Route exact path="/Map">
             <h1>Map</h1>
             <Map />
           </Route>
