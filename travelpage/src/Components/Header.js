@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Map from "./Map"
 
 export default function Header () {
     return (
@@ -8,7 +9,7 @@ export default function Header () {
             <div className="header-links">
                 <NavLink
                 exact
-                to="/"
+                to="/Map"
                 className="nav-link"
                 >Map</NavLink>
                 <NavLink
@@ -18,7 +19,7 @@ export default function Header () {
                 >Flights</NavLink>
                 <NavLink
                 exact
-                to="/destinations"
+                to="/Destinations"
                 className="nav-link"
                 >Destinations</NavLink>
             </div>

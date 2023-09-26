@@ -2,7 +2,7 @@ import './App.css';
 import React,{ useState, useEffect} from "react"
 import { Switch, Route } from 'react-router-dom';
 import Header from './Components/Header';
-import DestinationList from "./Components/DestinationList"
+import Destinations from './Components/Destinations';
 
 function App() {
   const [destinations,setDestinations] = useState([])
@@ -16,9 +16,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Switch>
-        <Route exact path="/">
-            <h1>TravelPage</h1>
+      <Switch>
+        <Route exact path="/Map">
+            <h1>Map</h1>
           </Route>
           <Route exact path="/flights">
             <h1>Flights</h1>
@@ -26,19 +26,8 @@ function App() {
           <Route exact path="/destinations">
             <h1>Destinations</h1>
           </Route>
-      </Switch> */}
-      <div className="homepage-pics">
-        {destinations.map((des) => {
-          return (
-            <DestinationList
-              key={des.id} 
-              city={des.city}
-              image={des['main-image']} 
-              funfact={des.funfact}
-            />
-          );
-        })}
-      </div>
+      </Switch>
+      <Destinations destinations={destinations} />
     </div>
   );
 }
