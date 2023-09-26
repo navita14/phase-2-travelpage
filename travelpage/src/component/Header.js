@@ -6,15 +6,17 @@ export default function Header () {
         <div id="header">
             <h1>Header</h1>
             <NavLink
-            exact
-            to="/"
-            >TravelPage</NavLink>
+                exact
+                to="/"
+                >TravelPage</NavLink>
             <NavLink
-            exact
-            to="/flights">Flights</NavLink>
+                exact
+                to="/flights"
+                >Flights</NavLink>
             <NavLink
-            exact
-            to="/destinations">Destinations</NavLink>
+                exact
+                to="/destinations"
+                >Destinations</NavLink>
         </div>
     )
 }
