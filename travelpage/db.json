@@ -1,0 +1,44 @@
+{
+    "destinations": [
+      {
+        "id": 1,
+        "country": "USA",
+        "state": "California",
+        "city": "Los Angeles",
+        "main-image": "https://lacounty.gov/wp-content/uploads/2022/03/shutterstock_1418018357-scaled.jpg",
+        "funfact": "After the Mexican War of Independence in 1821, L.A. became part of Mexico. And it remained Mexican until 1848, when the Mexican-American War ended. Los Angeles, along with California, was bought as part of the Treaty of Guadalupe Hidalgo. That is how it joined the good old US of A."
+      },
+      {
+        "id": 2,
+        "country": "UK",
+        "state": "England",
+        "city": "London",
+        "main-image": "https://assets.editorial.aetnd.com/uploads/2019/03/topic-london-gettyimages-760251843-feature.jpg",
+        "funfact":"More than 20 streets in London have names that are extremely sexual, provocative, and at the same time humorous. These streets have very suggestive and explicit names that express what they were renowned for. A few streets include Helmet Row, The Butts and Upper Butts, Newington Butts, White Knobs Way, Copping Close, Fanny Hands Lane, Bird in Bush Road, Clitheroe Road, Kings Butts, Melon Road, Ogle Street, Cumming Street, Swallow Street, Hooker's Road, Cock Pond, and Cock Lane."
+      },
+      {
+        "id": 3,
+        "country": "Europe",
+        "state": "Italy",
+        "city": "Florence",
+        "main-image": "https://secure.s.forbestravelguide.com/img/destinations/Florence-CreditTT-iStock.jpg",
+        "funfact":"Guccio Gucci founded the fashion house Gucci in 1921 in Florence. He was 40 years old when he founded the business. The famous double G logo stands for Guccio Gucci. The fashion house designed it in 1960 to honour Guccio Gucci after his death. In 1981, sixty years after Gucci founded the business, the company had its first ready-to-wear fashion show at Sala Bianca, Palazzo Pitti in Florence, the city where it all began."
+      },
+      {
+        "id": 4,
+        "country": "Asia",
+        "state": "Japan",
+        "city": "Tokyo",
+        "main-image": "https://www.aptouring.com/-/media/apt-responsive-website/asia/hero-panel-12-5/japan-12-5/hc-a-as-japan-aerial-view-of-tokyo-cityscape-with-fuji-mountain-in-japan-1131743616-g-web-12-5.jpg?useCustomFunctions=1&rw=2280&w=1900&h=950&cropX=304&cropY=0",
+        "funfact":"The Hen na Hotel in Tokyo Ginza is the world’s first and only hotel run by a robot. Ideal for antisocial travellers who prefer to avoid human contact at the end of a long day of sightseeing, multi-lingual robots staff the hotel. They can turn their heads, blink and carry luggage. “Henn” means “to change,” which represents the hotel’s commitment “for evolution in striving for the extraordinary sensation and comfort that lies beyond the ordinary.” There is also keyless locking and entry through facial recognition and free WiFI. Tokyo is also home to a robot restaurant. In Shinjuku, you can visit the Robot Restaurant to see robot monsters, dancers and lasers perform as you snack on bento boxes."
+      },
+      {
+        "id": 5,
+        "country": "South America",
+        "state": "Colombia",
+        "city": "Bogota",
+        "main-image": "https://media.istockphoto.com/id/1182337590/photo/bogota-cityscape-of-big-buildings-and-mountains-and-blue-sky.jpg?s=612x612&w=0&k=20&c=4iGqcn_Ibf7lNI1YrIXnfXrzE3SVx0JyFFel8g6y1qQ=",
+        "funfact":"Of all the countries in the world, all the super-wealthy countries in the world, who would guess that lil ole Colombia down in South America would own the world’s largest collection of gold?! Well, for anyone who knows that Colombia historically is famous for its gold reserves, this may not be quite as surprising as for others. Bogota’s famed Museo de Oro (Gold Museum) houses 55,000 pieces of gold. Most are historic artifacts from the pre-Colombian indigenous tribes. They include all sorts of jewelry, body ornamentation, artistic objects, sacrificial objects, tools and other gold pieces."
+      }
+    ]
+  }
