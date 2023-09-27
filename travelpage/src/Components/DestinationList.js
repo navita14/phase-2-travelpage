@@ -21,9 +21,9 @@ export default function DestionationList({city,image,funfact}){
     return (
         <div className="desList">
             <div>
-                <h2>{city}</h2>
+                <h2 className="desCity">{city}</h2>
             </div>
-            <div className="boxx">
+            <div className="boxx" >
                 <NavLink
                 exact 
                 to= {pages}>
