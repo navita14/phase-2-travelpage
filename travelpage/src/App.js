@@ -4,14 +4,14 @@ import { Switch, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Destinations from './Components/Destinations';
 import Map from "./Components/Map"
-import MoreInfo from './Components/MoreInfo';
-import London from './Destination/London';
-import LosAngeles from './Destination/LosAngeles';
-import Florence from './Destination/Florence';
-import Bogota from './Destination/Bogota';
-import Tokyo from './Destination/Tokyo';
+// import London from './Destination/London';
+// import LosAngeles from './Destination/LosAngeles';
+// import Florence from './Destination/Florence';
+// import Bogota from './Destination/Bogota';
+// import Tokyo from './Destination/Tokyo';
 import FlightSearch from './Components/FlightSearch'; 
 import flightsData from './flights.json';
+import MoreInfo from './Components/MoreInfo'
 
 function App() {
   const [destinations,setDestinations] = useState([])
@@ -27,26 +27,30 @@ function App() {
       <Header />
       <Switch>
           <Route exact path="/Map">
-            <h1>Map</h1>
             <Map />
           </Route>
           <Route exact path="/Flights">
-            <h1>Flights</h1>
             <FlightSearch flights={flightsData.flights} />
           </Route>
           <Route exact path="/Destinations">
-            <h1>Destinations</h1>
             <Destinations destinations={destinations} />
           </Route>
+{/*           
+          <Route exact path="/MoreInfo">
+              <MoreInfo name={destinations.city}/>
+          </Route> */}
+
+      
           {destinations.map(destination => {
             return (
               <Route
               exact path={`/Destination/${destination.city}`}>
-                <MoreInfo name={destination.city}/>
+                <MoreInfo destination={destination}/>
               </Route>
             )
           })}
-          <Route exact path="/Destination/newLondon">
+
+          {/* <Route exact path="/Destination/newLondon">
             <London />
           </Route>
           <Route exact path="/Destination/newAngeles">
@@ -60,7 +64,7 @@ function App() {
           </Route>
           <Route exact path="/Destination/newBogota">
             <Bogota />
-          </Route>
+          </Route> */}
       </Switch>
     </div>
   );

@@ -23,11 +23,12 @@ function FlightSearch({ flights }) {
   }, [origin, destination, flights]);
 
   return (
-    <div>
-      <h2>Flight Price Search</h2>
+    <div class="text-justify border-4 rounded-lg p-4">
+      <h2 class="text-lg">Flight Price Search:</h2>
       <div>
         <label>Origin:</label>
         <input
+          class="border-2 rounded border-rose-500 m-1"
           type="text"
           value={origin}
           onChange={(e) => setOrigin(e.target.value)}
@@ -36,6 +37,7 @@ function FlightSearch({ flights }) {
       <div>
         <label>Destination:</label>
         <input
+          class="border-2 rounded border-rose-500 m-1"
           type="text"
           value={destination}
           onChange={(e) => setDestination(e.target.value)}
