@@ -2,7 +2,7 @@ import { Route, Switch } from "react-router-dom";
 import React,{useState} from "react";
 import MoreInfo from "./MoreInfo";
 import { NavLink } from "react-router-dom/cjs/react-router-dom";
-import Destination from "./src/Destination"
+// import Destination from "./src/Destination"
 
 export default function DestionationList({city,image,funfact}){
     const [isFunFact,setFunFact]= useState((true))
@@ -10,6 +10,13 @@ export default function DestionationList({city,image,funfact}){
     function toggleFacts(){
         setFunFact(!isFunFact);
     }
+    
+    const pages = 
+        city === "London" ? `/Destination/newLondon` :
+        city === "Los Angeles" ? `/Destination/newAngeles` : 
+        city === "Florence" ? `/Destination/newFlorence` : 
+        city === "Tokyo" ? `/Destination/newTokyo` : 
+        city === "Bogota" ? `/Destination/newBogota` : `./Destination/${city}`
 
     return (
         <div className="desList">
@@ -19,7 +26,7 @@ export default function DestionationList({city,image,funfact}){
             <div className="boxx">
                 <NavLink
                 exact 
-                to= {`./Destination/${city}`}>
+                to= {pages}>
                     <button className="btnOne">More Info</button>
                 </NavLink>
                 <button className="btnOne" onClick={toggleFacts}>Fun Fact</button>

@@ -1,0 +1,326 @@
+{
+    "flights": [
+        {
+            "id": 1,
+            "origin": "New York City",
+            "destination": "Los Angeles",
+            "price": 425,
+            "airline": "Delta Air Lines"
+        },
+        {
+            "id": 2,
+            "origin": "New York City",
+            "destination": "Los Angeles",
+            "price": 390,
+            "airline": "American Airlines"
+        },
+        {
+            "id": 3,
+            "origin": "New York City",
+            "destination": "Los Angeles",
+            "price": 410,
+            "airline": "United Airlines"
+        },
+        {
+            "id": 4,
+            "origin": "New York City",
+            "destination": "Chicago",
+            "price": 265,
+            "airline": "American Airlines"
+        },
+        {
+            "id": 5,
+            "origin": "New York City",
+            "destination": "Chicago",
+            "price": 280,
+            "airline": "Delta Air Lines"
+        },
+        {
+            "id": 6,
+            "origin": "New York City",
+            "destination": "Chicago",
+            "price": 255,
+            "airline": "JetBlue Airways"
+        },
+        {
+            "id": 7,
+            "origin": "New York City",
+            "destination": "Miami",
+            "price": 320,
+            "airline": "American Airlines"
+        },
+        {
+            "id": 8,
+            "origin": "New York City",
+            "destination": "Miami",
+            "price": 345,
+            "airline": "Delta Air Lines"
+        },
+        {
+            "id": 9,
+            "origin": "New York City",
+            "destination": "Miami",
+            "price": 310,
+            "airline": "JetBlue Airways"
+        },
+        {
+            "id": 10,
+            "origin": "New York City",
+            "destination": "San Francisco",
+            "price": 475,
+            "airline": "United Airlines"
+        },
+        {
+            "id": 11,
+            "origin": "New York City",
+            "destination": "San Francisco",
+            "price": 495,
+            "airline": "American Airlines"
+        },
+        {
+            "id": 12,
+            "origin": "New York City",
+            "destination": "San Francisco",
+            "price": 460,
+            "airline": "Delta Air Lines"
+        },
+        {
+            "id": 13,
+            "origin": "New York City",
+            "destination": "Las Vegas",
+            "price": 380,
+            "airline": "Southwest Airlines"
+        },
+        {
+            "id": 14,
+            "origin": "New York City",
+            "destination": "Las Vegas",
+            "price": 400,
+            "airline": "Alaska Airlines"
+        },
+        {
+            "id": 15,
+            "origin": "New York City",
+            "destination": "Las Vegas",
+            "price": 420,
+            "airline": "JetBlue Airways"
+        },
+        {
+            "id": 16,
+            "origin": "New York City",
+            "destination": "Denver",
+            "price": 340,
+            "airline": "United Airlines"
+        },
+        {
+            "id": 17,
+            "origin": "New York City",
+            "destination": "Denver",
+            "price": 365,
+            "airline": "Delta Air Lines"
+        },
+        {
+            "id": 18,
+            "origin": "New York City",
+            "destination": "Denver",
+            "price": 330,
+            "airline": "American Airlines"
+        },
+        {
+            "id": 19,
+            "origin": "New York City",
+            "destination": "Orlando",
+            "price": 280,
+            "airline": "JetBlue Airways"
+        },
+        {
+            "id": 20,
+            "origin": "New York City",
+            "destination": "Orlando",
+            "price": 295,
+            "airline": "Southwest Airlines"
+        },
+        {
+            "id": 21,
+            "origin": "New York City",
+            "destination": "Orlando",
+            "price": 310,
+            "airline": "Alaska Airlines"
+        },
+        {
+            "id": 22,
+            "origin": "New York City",
+            "destination": "Houston",
+            "price": 375,
+            "airline": "United Airlines"
+        },
+        {
+            "id": 23,
+            "origin": "New York City",
+            "destination": "Houston",
+            "price": 390,
+            "airline": "Delta Air Lines"
+        },
+        {
+            "id": 24,
+            "origin": "New York City",
+            "destination": "Houston",
+            "price": 360,
+            "airline": "American Airlines"
+        },
+        {
+            "id": 25,
+            "origin": "New York City",
+            "destination": "Seattle",
+            "price": 430,
+            "airline": "JetBlue Airways"
+        },
+        {
+            "id": 26,
+            "origin": "New York City",
+            "destination": "Seattle",
+            "price": 455,
+            "airline": "Alaska Airlines"
+        },
+        {
+            "id": 27,
+            "origin": "New York City",
+            "destination": "Chicago",
+            "price": 280,
+            "airline": "United Airlines"
+        },
+        {
+            "id": 28,
+            "origin": "New York City",
+            "destination": "Chicago",
+            "price": 295,
+            "airline": "Delta Air Lines"
+        },
+        {
+            "id": 29,
+            "origin": "New York City",
+            "destination": "Chicago",
+            "price": 310,
+            "airline": "American Airlines"
+        },
+        {
+            "id": 30,
+            "origin": "New York City",
+            "destination": "Los Angeles",
+            "price": 380,
+            "airline": "Southwest Airlines"
+        },
+        {
+            "id": 31,
+            "origin": "New York City",
+            "destination": "Los Angeles",
+            "price": 400,
+            "airline": "Alaska Airlines"
+        },
+        {
+            "id": 32,
+            "origin": "New York City",
+            "destination": "Los Angeles",
+            "price": 420,
+            "airline": "JetBlue Airways"
+        },
+        {
+            "id": 33,
+            "origin": "New York City",
+            "destination": "Dallas",
+            "price": 340,
+            "airline": "United Airlines"
+        },
+        {
+            "id": 34,
+            "origin": "New York City",
+            "destination": "Dallas",
+            "price": 365,
+            "airline": "Delta Air Lines"
+        },
+        {
+            "id": 35,
+            "origin": "New York City",
+            "destination": "Dallas",
+            "price": 330,
+            "airline": "American Airlines"
+        },
+        {
+            "id": 36,
+            "origin": "New York City",
+            "destination": "Atlanta",
+            "price": 280,
+            "airline": "JetBlue Airways"
+        },
+        {
+            "id": 37,
+            "origin": "New York City",
+            "destination": "Atlanta",
+            "price": 295,
+            "airline": "Southwest Airlines"
+        },
+        {
+            "id": 38,
+            "origin": "New York City",
+            "destination": "Atlanta",
+            "price": 310,
+            "airline": "Alaska Airlines"
+        },
+        {
+            "id": 39,
+            "origin": "New York City",
+            "destination": "Phoenix",
+            "price": 375,
+            "airline": "United Airlines"
+        },
+        {
+            "id": 40,
+            "origin": "New York City",
+            "destination": "Phoenix",
+            "price": 390,
+            "airline": "Delta Air Lines"
+        },
+        {
+            "id": 41,
+            "origin": "New York City",
+            "destination": "Phoenix",
+            "price": 360,
+            "airline": "American Airlines"
+        },
+        {
+            "id": 42,
+            "origin": "New York City",
+            "destination": "Boston",
+            "price": 430,
+            "airline": "JetBlue Airways"
+        },
+        {
+            "id": 43,
+            "origin": "New York City",
+            "destination": "Boston",
+            "price": 455,
+            "airline": "Alaska Airlines"
+        },
+        {
+            "id": 44,
+            "origin": "New York City",
+            "destination": "Boston",
+            "price": 475,
+            "airline": "Southwest Airlines"
+        },
+        {
+            "id": 45,
+            "origin": "New York City",
+            "destination": "Philadelphia",
+            "price": 330,
+            "airline": "Delta Air Lines"
+        },
+        {
+            "id": 46,
+            "origin": "New York City",
+            "destination": "Philadelphia",
+            "price": 310,
+            "airline": "American Airlines"
+        }
+    ]
+}

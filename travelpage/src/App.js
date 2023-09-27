@@ -5,6 +5,13 @@ import Header from './Components/Header';
 import Destinations from './Components/Destinations';
 import Map from "./Components/Map"
 import MoreInfo from './Components/MoreInfo';
+import London from './Destination/London';
+import LosAngeles from './Destination/LosAngeles';
+import Florence from './Destination/Florence';
+import Bogota from './Destination/Bogota';
+import Tokyo from './Destination/Tokyo';
+import FlightSearch from './Components/FlightSearch'; 
+import flightsData from './flights.json';
 
 function App() {
   const [destinations,setDestinations] = useState([])
@@ -25,13 +32,36 @@ function App() {
           </Route>
           <Route exact path="/Flights">
             <h1>Flights</h1>
+            <FlightSearch flights={flightsData.flights} />
           </Route>
           <Route exact path="/Destinations">
             <h1>Destinations</h1>
             <Destinations destinations={destinations} />
           </Route>
+          {destinations.map(destination => {
+            return (
+              <Route
+              exact path={`/Destination/${destination.city}`}>
+                <MoreInfo name={destination.city}/>
+              </Route>
+            )
+          })}
+          <Route exact path="/Destination/newLondon">
+            <London />
+          </Route>
+          <Route exact path="/Destination/newAngeles">
+            <LosAngeles />
+          </Route>
+          <Route exact path="/Destination/newFlorence">
+            <Florence />
+          </Route>
+          <Route exact path="/Destination/newTokyo">
+            <Tokyo />
+          </Route>
+          <Route exact path="/Destination/newBogota">
+            <Bogota />
+          </Route>
       </Switch>
-      
     </div>
   );
 }
