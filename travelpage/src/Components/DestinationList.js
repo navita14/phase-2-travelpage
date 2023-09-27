@@ -21,22 +21,17 @@ export default function DestionationList({city,image,funfact}){
 
 
     return (
-        <div className="desList">
+        <div class="flex flex-col items-center">
             <div>
-                <h2 class="text-center text-xl font-bold font-serif ">{city}</h2>
+                <h2 class="text-xl font-bold font-serif">{city}</h2>
             </div>
-            <div className="boxx">
+            <div>
+            <img src={image} alt={city} />
                 <NavLink 
                 exact 
                 to={`/destination/${city}`}>
-                    <button class="text-sm font-semibold py-2 px-3 rounded-full" >More Info</button>
+                     <button class="bg-blue-500 hover:bg-blue-700 text-white text-sm font-semibold py-2 px-3 rounded-full bg-blue-500 shadow-lg shadow-blue-500/50">More Info</button>
                 </NavLink>
-                <button class="bg-blue-500 hover:bg-blue-700 text-white text-sm font-semibold py-2 px-3 rounded-full bg-blue-500 shadow-lg shadow-blue-500/50 " onClick={toggleFacts}>Fun Fact</button>
-                {isFunFact ? (
-                    <img className="pics" src={image} alt={city} />
-                ) : (
-                    <p>{funfact}</p>
-                )}
             </div>
         </div>
     )

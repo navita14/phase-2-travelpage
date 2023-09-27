@@ -24,7 +24,7 @@ function FlightSearch({ flights }) {
 
   return (
     <div class="text-justify border-4 rounded-lg p-4">
-      <h2 class="text-lg">Flight Price Search:</h2>
+      <h2 class="text-xl up"> Flight Price Search: </h2>
       <div>
         <label>Origin:</label>
         <input
