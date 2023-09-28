@@ -1,6 +1,5 @@
-import { Route, Switch } from "react-router-dom";
+
 import React,{useState} from "react";
-import MoreInfo from "./MoreInfo";
 import { NavLink } from "react-router-dom/cjs/react-router-dom";
 // import Destination from "./src/Destination"
 
