@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillGithub } from 'react-icons/ai'
 
-export default function Footer() {juan
+export default function Footer() {
  return (
     <div className='bg-cyan-50 h-20 items-center max-w-[1400px] mx-auto pb-1 flex justify-between'>
 
