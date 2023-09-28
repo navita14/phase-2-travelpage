@@ -5,6 +5,7 @@ import DestinationList from "./DestinationList"
 export default function Destinations({destinations}){
     return (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-0 pl-1">
+<<<<<<< HEAD
           {destinations.map((des) => {
             return (
               <DestinationList
@@ -15,6 +16,18 @@ export default function Destinations({destinations}){
               />
             );
           })}
+=======
+        {destinations.map((des) => {
+          return (
+            <DestinationList
+              key={des.id} 
+              city={des.city}
+              image={des['main-image']} 
+              funfact={des.funfact}
+            />
+          );
+        })}
+>>>>>>> navi-branch
       </div>
     )
 

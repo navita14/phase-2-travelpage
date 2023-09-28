@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 /* .App {
   text-align: center;
 }
 
+=======
+>>>>>>> navi-branch
 
 .homepage-pics img {
   width: 300px;;
@@ -28,6 +31,7 @@
   color: white
 }
 
+<<<<<<< HEAD
 /* .header-links:hover{
   border-color:gold;
 } */
@@ -65,13 +69,33 @@
   margin: 0 auto;  */
   /* display: flex; */
   /* justify-content: center;
+=======
+
+
+
+.maps-container {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: center;
+>>>>>>> navi-branch
 }
 
-.boxx {
+/* .boxx {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
+<<<<<<< HEAD
 }  */
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
+=======
+} */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+>>>>>>> navi-branch

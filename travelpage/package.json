@@ -15,7 +15,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
     "server": "json-server --watch db.json --port 8000",
+=======
+   
+>>>>>>> navi-branch
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

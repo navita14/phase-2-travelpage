@@ -6,8 +6,13 @@ export default function Header () {
     
     return (
         <div className='flex justify-between items-center h-24 max-w-[1400px] mx-auto px-9 bg-cyan-50'>
+<<<<<<< HEAD
             <h1 className='w-full text-3xl font-bold m-4'>TravelEx</h1>
             <div className='flex '>
+=======
+            <h1 className='w-full uppercase text-3xl font-bold m-4'>TravelEx</h1>
+            <div className='no-underline hover:underline flex-row-reverse font-bold '>
+>>>>>>> navi-branch
                 
                 <NavLink
                 exact

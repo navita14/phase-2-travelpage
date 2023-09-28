@@ -1,11 +1,13 @@
 import React,{useState} from "react";
+import { NavLink } from "react-router-dom/cjs/react-router-dom";
+
 
 export default function DestionationList({city,image,funfact}){
     const [isFunFact,setFunFact]= useState((true))
     
-    function toggleFacts(){
-        setFunFact(!isFunFact);
-    }
+    // function toggleFacts(){
+    //     setFunFact(!isFunFact);
+    // }
 
     return (
         <div className='w-full py-[6rem] px-4 max-w-[1240px] mx-auto'>

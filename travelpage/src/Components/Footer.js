@@ -18,4 +18,8 @@ export default function Footer() {
 
 
     )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> navi-branch
