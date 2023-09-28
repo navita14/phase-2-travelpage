@@ -4,7 +4,7 @@ import DestinationList from "./DestinationList"
 
 export default function Destinations({destinations}){
     return (
-        <div className="homepage-pics">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-0 pl-1">
         {destinations.map((des) => {
           return (
             <DestinationList

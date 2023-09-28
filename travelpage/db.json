@@ -30,7 +30,7 @@
         "city": "Florence",
         "main-image": "https://secure.s.forbestravelguide.com/img/destinations/Florence-CreditTT-iStock.jpg",
         "funfact":"Guccio Gucci founded the fashion house Gucci in 1921 in Florence. He was 40 years old when he founded the business. The famous double G logo stands for Guccio Gucci. The fashion house designed it in 1960 to honour Guccio Gucci after his death. In 1981, sixty years after Gucci founded the business, the company had its first ready-to-wear fashion show at Sala Bianca, Palazzo Pitti in Florence, the city where it all began.",
-        "imageOne": "https://ew77mymd4fj.exactdn.com/wp-content/uploads/2021/01/Giardino-delle-Rose-in-Florence-Italy-4.jpg",
+        "imageOne": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNpjGMn8ckDg96nfD1OMzFZCov1-z_3ke1EQ&usqp=CAU",
         "imageTwo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5U5-jMJu0zuKu7hWhkn9uRAASjUVRq_TVw&usqp=CAU",
         "imageThree": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOvTpWxu1cXanFfUyK6Q5JgQrYz5zel5pdtg&usqp=CAU"
       },
@@ -55,6 +55,18 @@
         "imageOne": "https://static.toiimg.com/photo/msid-65040983,width-96,height-65.cms",
         "imageTwo": "https://www.insidehighered.com/sites/default/files/2023-06/campus-and-city-image.jpg",
         "imageThree": "https://www.extraspace.com/wp-content/uploads/2020/02/living-in-columbia-sc.jpg"
+      },
+      {
+        "id": 6,
+        "country": "Indonesia",
+        "state": "Raja Ampat",
+        "city": "Raja-Ampat",
+        "main-image": "https://www.zubludiving.com/images/Indonesia/West-Papua/Raja-Ampat/Raja-Ampat-Wayag-Diving.jpg",
+        "funfact":"It's home to 17 species of marine mammals, including orcas, sperm whales, and Bryde's whales. It also has five sea turtle species, and many sharks and rays, including whale sharks.",
+        "imageOne": "https://zonadtransito.com/wp-content/uploads/2023/02/458-Malasia-Indonesia-2022-MOVIL.jpg",
+        "imageTwo": "https://cdn.northropandjohnson.com/uploads/SE-Asia_Indonesia_Papua_Sunset.jpg?auto=format&q=35&h=1&ar=16%3A9&fit=crop",
+        "imageThree":"https://farm3.static.flickr.com/2435/5714828164_f6e8579346_z.jpg"
       }
+
     ]
   }

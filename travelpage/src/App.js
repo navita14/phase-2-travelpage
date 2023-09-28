@@ -12,6 +12,7 @@ import Map from "./Components/Map"
 import FlightSearch from './Components/FlightSearch'; 
 import flightsData from './flights.json';
 import MoreInfo from './Components/MoreInfo'
+import Footer from "./Components/Footer"
 
 function App() {
   const [destinations,setDestinations] = useState([])
@@ -66,6 +67,7 @@ function App() {
             <Bogota />
           </Route> */}
       </Switch>
+      <Footer />
     </div>
   );
 }
