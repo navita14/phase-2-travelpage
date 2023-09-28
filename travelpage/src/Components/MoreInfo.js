@@ -39,7 +39,7 @@ export default function MoreInfo({ destination }){
               />
             </div>
           </div >
-            <div className="max-w-2xl grid content-center font-serif font-bold shadow-xl">
+            <div className="max-w-2xl grid content-center font-serif shadow-xl">
               <ul >{destination.funfact}</ul>
             </div>
         </div>
