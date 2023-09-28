@@ -10,7 +10,7 @@ export default function Footer() {
                <AiFillGithub size={30}/>
             </div>
             <h1 className="p-4 font-bold">jotasavage</h1>
-            <h1 className="p-4 font-bold">footer</h1>
+            <h1 className="p-4 font-bold">acabacadabolis</h1>
             <h1 className="p-4 font-bold">navita14</h1>
         </div>
         
