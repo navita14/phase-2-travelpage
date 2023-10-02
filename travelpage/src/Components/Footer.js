@@ -3,7 +3,7 @@ import { AiFillGithub } from 'react-icons/ai'
 
 export default function Footer() {
  return (
-    <div class=" sticky bottom-0">
+    <div class="">
     <div className='bg-cyan-50 h-20 items-center max-w-[1400px] mx-auto pb-1 flex justify-between'>
 
         <div className='flex flex-row m-10 uppercase'>

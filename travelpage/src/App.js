@@ -32,21 +32,25 @@ function App() {
           </Route>
           <Route exact path="/Flights">
             <FlightSearch flights={flightsData.flights} />
+
+      <Footer />
           </Route>
-          <Route exact path="/Destinations">
+          <Route exact path="/">
             <Destinations destinations={destinations} />
+
+      <Footer />
           </Route>
 {/*           
           <Route exact path="/MoreInfo">
               <MoreInfo name={destinations.city}/>
           </Route> */}
-
-      
           {destinations.map(destination => {
             return (
               <Route
               exact path={`/Destination/${destination.city}`}>
                 <MoreInfo destination={destination}/>
+                
+      <Footer />
               </Route>
             )
           })}
@@ -67,7 +71,6 @@ function App() {
             <Bogota />
           </Route> */}
       </Switch>
-      <Footer />
     </div>
   );
 }

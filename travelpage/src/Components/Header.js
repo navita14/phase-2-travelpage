@@ -23,7 +23,7 @@ export default function Header () {
                 
                 <NavLink
                 exact
-                to="/Destinations"
+                to="/"
                 className='p-4 font-bold'
                 >Destinations</NavLink>
             </div>
